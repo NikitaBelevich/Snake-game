@@ -1,1 +1,46 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+body {
+  background-color: #432969;
+}
+
+.snake-game {
+  width: 432px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 18vh;
+}
+
+.snake-game__header {
+  width: 160px;
+  height: 60px;
+  background-color: #2e1554;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.snake-game__score {
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  color: #c04ec0;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.snake-game__canvas-wrapper {
+  width: 432px;
+  height: 432px;
+  margin-top: 2rem;
+  padding: 16px 0 0 16px;
+  background-color: #2e1554;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 40px 2px #000000a1;
+          box-shadow: 0px 0px 40px 2px #000000a1;
+}
+
+.snake-game__canvas {
+  width: 416px;
+  height: 416px;
+  background-image: url("/img/ellipse-background.svg");
+  background-size: 16px;
+}

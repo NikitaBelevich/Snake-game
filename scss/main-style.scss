@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
 body {
-    
+    background-color: #432969;
 }
 
+.snake-game {
+    width: 432px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 18vh;
+
+    &__header {
+        width: 160px;
+        height: 60px;
+        background-color: #2e1554;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    &__score {
+        font-size: 30px;
+        text-align: center;
+        line-height: 60px;
+        color: #c04ec0;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+    }
+    &__canvas-wrapper {
+        width: 432px;
+        height: 432px;
+        margin-top: 2rem;
+        padding: 16px 0 0 16px;
+        background-color: #2e1554;
+        border-radius: 5px;
+        box-shadow: 0px 0px 40px 2px #000000a1;
+    }
+    &__canvas {
+        width: 416px;
+        height: 416px;
+        // background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='4' fill='%23525053'/%3E%3C/svg%3E%0A");
+        background-image: url('/img/ellipse-background.svg');
+        background-size: 16px;
+        // background-position: 4px 0;
+    }
+}
