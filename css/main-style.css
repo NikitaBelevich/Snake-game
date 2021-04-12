@@ -39,8 +39,6 @@ body {
 }
 
 .snake-game__canvas {
-  width: 416px;
-  height: 416px;
   background-image: url("/img/ellipse-background.svg");
   background-size: 16px;
 }
